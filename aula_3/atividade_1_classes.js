@@ -17,8 +17,12 @@ class Personagem {
     defender() {
         return this.#baseDefesa * this.#nivel;
     }
-    getVida() {}
-    setVida() {}
+    getVida() {
+        return this.#vida;
+    }
+    setVida(vida) {
+        return this.#vida = vida;
+    }
 }
 
 export class Mago extends Personagem {
