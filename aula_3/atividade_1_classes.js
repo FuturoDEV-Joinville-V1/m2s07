@@ -11,8 +11,12 @@ class Personagem {
         this.#baseDefesa = baseDefesa;
     }
 
-    atacar() {}
-    defender() {}
+    atacar() {
+        return this.#baseAtaque * this.#nivel;
+    }
+    defender() {
+        return this.#baseDefesa * this.#nivel;
+    }
     getVida() {}
     setVida() {}
 }

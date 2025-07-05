@@ -23,3 +23,8 @@ if (escolhaAdversario.toLowerCase() === 'mago') {
     personagemAdversario = new Arqueiro(escolhaNivel);
 }
 
+const acaoPersonagemUsuario = Math.floor(Math.random() * 2);
+const acaopersonagemAdversario = Math.floor(Math.random() * 2);
+
+
+
